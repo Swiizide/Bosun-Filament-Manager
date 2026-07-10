@@ -121,6 +121,7 @@ export const allDashboardPanels = [
     'mmu',
     'temperature',
     'webcam',
+    'filament-manager',
 ]
 
 export const thumbnailSmallMin = 30

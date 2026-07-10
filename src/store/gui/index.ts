@@ -24,6 +24,7 @@ import { remoteprinters } from '@/store/gui/remoteprinters'
 import { maintenance } from '@/store/gui/maintenance'
 import { webcams } from '@/store/gui/webcams'
 import { heightmap } from '@/store/gui/heightmap'
+import { filaments } from '@/store/gui/filaments'
 
 export const getDefaultState = (): GuiState => {
     return {
@@ -74,6 +75,7 @@ export const getDefaultState = (): GuiState => {
                 { name: 'toolhead-control', visible: true },
                 { name: 'extruder-control', visible: true },
                 { name: 'macros', visible: true },
+                { name: 'filament-manager', visible: true },
                 { name: 'machine-settings', visible: true },
                 { name: 'miscellaneous', visible: true },
                 { name: 'temperature', visible: true },
@@ -84,6 +86,7 @@ export const getDefaultState = (): GuiState => {
                 { name: 'toolhead-control', visible: true },
                 { name: 'extruder-control', visible: true },
                 { name: 'macros', visible: true },
+                { name: 'filament-manager', visible: true },
                 { name: 'machine-settings', visible: true },
                 { name: 'miscellaneous', visible: true },
             ],
@@ -96,6 +99,7 @@ export const getDefaultState = (): GuiState => {
                 { name: 'toolhead-control', visible: true },
                 { name: 'extruder-control', visible: true },
                 { name: 'macros', visible: true },
+                { name: 'filament-manager', visible: true },
                 { name: 'machine-settings', visible: true },
                 { name: 'miscellaneous', visible: true },
             ],
@@ -107,6 +111,7 @@ export const getDefaultState = (): GuiState => {
                 { name: 'toolhead-control', visible: true },
                 { name: 'extruder-control', visible: true },
                 { name: 'macros', visible: true },
+                { name: 'filament-manager', visible: true },
                 { name: 'miscellaneous', visible: true },
             ],
             widescreenLayout2: [
@@ -341,5 +346,6 @@ export const gui: Module<GuiState, RootState> = {
         remoteprinters,
         webcams,
         heightmap,
+        filaments,
     },
 }

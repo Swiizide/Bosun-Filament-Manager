@@ -1,11 +1,11 @@
 {
-    "name": "mainsail",
-    "version": "2.18.2",
+    "name": "Bosun",
+    "version": "1.0.0",
     "private": true,
     "type": "module",
-    "decription": "a klipper web interface",
+    "decription": "Bosun - The Last Filament Manager You Will Need.",
     "author": {
-        "name": "Stefan Dej"
+        "name": "Neo Torin"
     },
     "scripts": {
         "serve": "vite serve",

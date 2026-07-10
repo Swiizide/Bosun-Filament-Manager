@@ -682,6 +682,10 @@
             "WeightSubtitle": "The weight of the filament in grams (without spool).",
             "WeightUsed": "{weight}g used"
         },
+        "FilamentManager": {
+            "Title": "Bosun",
+            "NoFilaments": "No filaments added yet."
+        },
         "ExtruderControlPanel": {
             "Allowed": "Allowed",
             "CleanNozzle": "Clean Nozzle",
