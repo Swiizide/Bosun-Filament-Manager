@@ -89,7 +89,9 @@ A log of load→unload cycles is written to `config/filament_log.txt`, accessibl
 ## Planned features
 
 - Filament sensor integration for automatic load/unload detection
+- Software based filament sensor
 - Nozzle diameter tracking and automatic printer config updates
+- Support for multiple nozzles/printheads
 
 ## Credits
 
