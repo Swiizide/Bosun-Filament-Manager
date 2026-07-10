@@ -44,43 +44,37 @@ Bosun is a filament management panel built as a fork of [Mainsail](https://githu
 
 Bosun replaces your existing Mainsail installation. Your Klipper/Moonraker setup is not affected.
 
-**1. Download the latest release**
-
-Go to the [Releases](https://github.com/Swiizide/mainsail-filament/releases) page and download `mainsail.zip`.
-
-**2. Back up your existing Mainsail**
+**1. Back up your existing Mainsail**
 
 ```bash
 cp -r ~/mainsail ~/mainsail_backup
 ```
 
-**3. Extract and deploy**
+**2. Download and deploy the latest release**
 
 ```bash
-cd ~/mainsail
-rm -rf ./*
-unzip /path/to/mainsail.zip -d ./
+cd /tmp
+wget https://github.com/Swiizide/mainsail-filament/releases/latest/download/mainsail.zip
+unzip mainsail.zip -d ~/mainsail/
 ```
 
-Or via SCP from your PC after building locally:
+**3. Add to moonraker.conf**
 
-```bash
-scp -r dist/* USER@YOUR_PRINTER_IP:/home/USER/mainsail/
+Replace the existing `[update_manager mainsail]` entry with:
+
+```ini
+[update_manager mainsail]
+type: web
+channel: stable
+repo: Swiizide/mainsail-filament
+path: ~/mainsail
 ```
+
+Restart Moonraker after saving. Bosun will now appear in the Update Manager and receive one-click updates.
 
 **4. Refresh Mainsail in your browser**
 
-That's it — the Bosun panel will appear on your dashboard.
-
-## Building from source
-
-```bash
-git clone https://github.com/Swiizide/mainsail-filament.git
-cd mainsail-filament
-npm install
-npm run serve    # development server
-npm run build    # production build
-```
+The Bosun panel will appear on your dashboard.
 
 ## Updating
 
