@@ -1,127 +1,108 @@
 <p align="center">
-  <a>
-    <img src="https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/logo.png" alt='Mainsail logo' height="152">
-    <h1 align="center">Mainsail</h1>
-  </a>
+  <h1 align="center">⚓ Bosun</h1>
+  <p align="center">A filament manager panel for Mainsail/Klipper</p>
 </p>
+
 <p align="center">
-  Makes Klipper more accessible by adding a lightweight, responsive web user interface, centred around an intuitive and consistent design philosophy.
-</p>
-<p align="center">
-  <a aria-label="Downloads" href="https://github.com/mainsail-crew/mainsail/releases">
-    <img src="https://img.shields.io/github/downloads/mainsail-crew/mainsail/total?style=flat-square">
+  <a aria-label="License" href="https://github.com/Swiizide/mainsail-filament/blob/develop/LICENSE">
+    <img src="https://img.shields.io/github/license/Swiizide/mainsail-filament?style=flat-square">
   </a>
-  <a aria-label="Stars" href="https://github.com/mainsail-crew/mainsail/stargazers">
-    <img src="https://img.shields.io/github/stars/mainsail-crew/mainsail?style=flat-square">
+  <a aria-label="Last commit" href="https://github.com/Swiizide/mainsail-filament/commits/">
+    <img src="https://img.shields.io/github/last-commit/Swiizide/mainsail-filament?style=flat-square">
   </a>
-  <a aria-label="Forks" href="https://github.com/mainsail-crew/mainsail/network/members">
-    <img src="https://img.shields.io/github/forks/mainsail-crew/mainsail?style=flat-square">
-  </a>
-  <a href="https://hosted.weblate.org/engage/mainsail/">
-    <img src="https://hosted.weblate.org/widget/mainsail/mainsail/svg-badge.svg" alt="Übersetzungsstatus" />
-  </a>
-  <a aria-label="License" href="https://github.com/mainsail-crew/mainsail/blob/develop/LICENSE">
-    <img src="https://img.shields.io/github/license/mainsail-crew/mainsail?style=flat-square">
-  </a>
-  <a aria-label="Last commit" href="https://github.com/mainsail-crew/mainsail/commits/">
-    <img src="https://img.shields.io/github/last-commit/meteyou/mainsail?style=flat-square">
-  </a>
-  <br />
-  <a aria-label="Size" href="https://github.com/mainsail-crew/mainsail/">
-    <img src="https://img.shields.io/github/repo-size/meteyou/mainsail?style=flat-square">
-  </a>
-  <a aria-label="Discord" href="https://discord.gg/skWTwTD">
-    <img src="https://img.shields.io/discord/758059413700345988?color=%235865F2&label=discord&logo=discord&logoColor=white&style=flat-square">
-  </a>
-  <a aria-label="Patreon" href="https://www.patreon.com/meteyou">
-    <img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dmeteyou%26type%3Dpatrons&style=flat-square">
+  <a aria-label="Version" href="https://github.com/Swiizide/mainsail-filament/releases">
+    <img src="https://img.shields.io/github/v/release/Swiizide/mainsail-filament?style=flat-square">
   </a>
 </p>
 
-## Getting Started
+---
 
-Visit [docs.mainsail.xyz/setup](https://docs.mainsail.xyz/setup) to get started with Mainsail.
-
-Mainsail is also available in remote mode on [http://my.mainsail.xyz](http://my.mainsail.xyz). Find
-out [more](https://docs.mainsail.xyz/setup#mymainsailxyz).
-
-## Documentation
-
-Visit [docs.mainsail.xyz](https://docs.mainsail.xyz) to view the full documentation.  
-You can find the latest release notes [here](https://github.com/mainsail-crew/mainsail/releases).
-
-## Screenshots
-
-![screenshot-dashboard](https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/screenshot.png)
-![Features](https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/features.png)
+Bosun is a filament management panel built as a fork of [Mainsail](https://github.com/mainsail-crew/mainsail).
 
 ## Features
 
-- **Responsive Web Interface:** _Optimized for desktops, tablets and mobile devices_
-- **Printer Farm:** _Supports multiple 3D printers_
-- **[Localization](https://docs.mainsail.xyz/features/localization):** _Choose between 12 different languages_
-- **File Manager:** _Delete, rename and upload your G-Code and config files_
-- **File Editor:** _Edit G-Code and config files with syntax highlighting in your browser_
-- **[Print History](https://docs.mainsail.xyz/features/history):** _See your previous prints and their status_
-- **[Statistics](https://docs.mainsail.xyz/features/history):** _View how much time your printer has been in use and the number of jobs that have succeeded or failed_
-- **Job Queue:** _Queue multiple jobs and add them directly from your slicer_
-- **[Temperature Presets](https://docs.mainsail.xyz/features/presets):** _Manage different temperature presets for easy preheating_
-- **[Bed Mesh Visualisation](https://docs.mainsail.xyz/features/bedmesh):** _View your bed using a 3D mesh graph_
-- **G-Code Viewer:** _View a 3D render of your print and follow the progress_
-- **Multi-Webcam Support:** _View your print from different angles with multiple webcams_
-- **Timelapse Integration:** _Automatically record a timelapse of your print using [moonraker-timelapse](https://github.com/mainsail-crew/moonraker-timelapse)_
-- **Power Control:** _Control power devices such as relays, TP-Link and Tasmota devices, and more_
-- **Powerful Macro-Management:** _Manage your macros on a micro level_
-- **[Configurable Dashboard](https://docs.mainsail.xyz/features/dashboard-organisation):** _Create your own personal dashboard_
-- **[Theming Support](https://docs.mainsail.xyz/features/theming):** _Customizable user interface including logos, backgrounds, and custom CSS_
-- **[Additional Sensors](https://docs.mainsail.xyz/quicktips/additional-sensors):** _Add extra sensors to the temperature graph_
-- **Exclude Objects:** _Exclude parts of your print <sup>(not officially supported by Klipper yet)</sup>_
+- **Filament tracking** — Add, edit and delete filament spools with brand, type, colour, weight and correction factor
+- **Roll IDs** — Each spool gets a unique 4-character ID (e.g. `A3B2`) for real-world identification
+- **Smart weight calculation** — Enter any two of filament weight, spool weight and total weight and the third calculates automatically
+- **Low filament warnings** — Configurable per-spool warning threshold with visual indicators
+- **Colour picker** — Full colour picker for each filament
+- **Presets** — Save filament profiles as reusable presets for quick entry of new spools
+- **Refill button** — Quickly add a fresh spool of the same filament
+- **Active filament selector** — Track which filament is currently loaded
+- **Load/Unload automation** — Buttons that home, raise Z to 50mm, heat the extruder and wait 60 seconds before turning off
+- **Per-print weight deduction** — Automatically deducts estimated usage from remaining weight after each print
+- **Smart correction factor** — Compares actual vs estimated usage over multiple weigh-ins and automatically refines the correction factor per filament type (for all you nerds out there)
+- **Filament log** — Writes a log to `config/filament_log.txt` with each load→unload cycle
 
-## Help and Support
+## Requirements
 
-Do you need help or just want to talk? Join our active community on [Discord](https://discord.gg/skWTwTD)!
+- Klipper
+- Moonraker
+- Mainsail (this is a fork of Mainsail, not a plugin)
 
-Did you find a bug or did you thought of a feature?
-Please create an [Issue](https://github.com/mainsail-crew/mainsail/issues) in GitHub and let us know.
+## Installation
 
-## Official Sponsors
+Bosun replaces your existing Mainsail installation. Your Klipper/Moonraker setup is not affected.
 
-<p align='center'>
-    <img src="https://raw.githubusercontent.com/mainsail-crew/docs/master/assets/img/logo-bigtreetech.png" alt='Mainsail logo' width="150">
-</p>
+**1. Download the latest release**
 
-**BIGTREETECH** is the official mainboard partner of Mainsail. BIGTREETECH is committed to developing innovative and competitive products to better serve the 3D printing community.
+Go to the [Releases](https://github.com/Swiizide/mainsail-filament/releases) page and download `mainsail.zip`.
 
-## Support Mainsail
+**2. Back up your existing Mainsail**
 
-Mainsail is primarily developed and maintained by meteyou. To keep the project going he invests his free time, almost
-every day. To motivate him (☕🍺😜) there are several ways to support him:
+```bash
+cp -r ~/mainsail ~/mainsail_backup
+```
 
-[![patreon](https://img.shields.io/badge/patreon-participate-yellow.svg?style=flat-square)](https://www.patreon.com/meteyou)
-[![kofi](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg?style=flat-square)](https://ko-fi.com/mainsail)
+**3. Extract and deploy**
 
-## Contributing
+```bash
+cd ~/mainsail
+rm -rf ./*
+unzip /path/to/mainsail.zip -d ./
+```
 
-Contributions to Mainsail are always welcome!
+Or via SCP from your PC after building locally:
 
-- 📥 Pull requests and 🌟 Stars are always welcome.
-- Read our [contributing guidelines](CONTRIBUTING.md) to get started,
-  or find us on [Discord](https://discord.gg/mainsail), we will take the time to guide you.
+```bash
+scp -r dist/* USER@YOUR_PRINTER_IP:/home/USER/mainsail/
+```
 
-Looking for a first issue to tackle?
+**4. Refresh Mainsail in your browser**
 
-- We tag issues with [![Good First Issue](https://img.shields.io/github/issues/mainsail-crew/mainsail/good%20first%20issue.svg)](https://github.com/mainsail-crew/mainsail/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) when we think they are well suited for people who are new to the codebase or OSS in general.
-- [Talk to us](https://discord.gg/mainsail), we'll find something that suits your skills and learning interest.
+That's it — the Bosun panel will appear on your dashboard.
 
-## Credit, sources and inspiration
+## Building from source
 
-- [Kevin O'Connor](https://github.com/KevinOConnor) for the awesome 3D printer firmware [Klipper](https://github.com/KevinOConnor/klipper)
-- [Eric Callahan (arksine)](https://github.com/Arksine) for [Moonraker (Klipper API)](https://github.com/Arksine/moonraker). Without Moonraker, Mainsail would not be possible.
-- [lixxbox](https://github.com/lixxbox) for the Mainsail logo & Docs
-- [Vue.js](https://vuejs.org/): The Progressive JavaScript Framework
-- [Vuetify](https://vuetifyjs.com/): Material Design Component Framework for Vue.js
+```bash
+git clone https://github.com/Swiizide/mainsail-filament.git
+cd mainsail-filament
+npm install
+npm run serve    # development server
+npm run build    # production build
+```*
 
-Massive thanks to the whole [Voron Design](http://vorondesign.com/) community. Without them such a project would not be
-possible.
+## Updating
 
-[Full Credits & License information](https://docs.mainsail.xyz/credits)
+Download the latest release and repeat the installation steps, or build from source and redeploy.
+
+## Data storage
+
+All filament data is stored in Moonraker's database under the `mainsail` namespace — the same place Mainsail stores its own settings. Your filament data persists across browser refreshes and Mainsail updates.
+
+A log of load→unload cycles is written to `config/filament_log.txt`, accessible via Machine → Config Files in Mainsail.
+
+## Planned features
+
+- Filament sensor integration for automatic load/unload detection
+- Nozzle diameter tracking and automatic printer config updates
+
+## Credits
+
+- [Mainsail](https://github.com/mainsail-crew/mainsail)
+- [Kevin O'Connor](https://github.com/KevinOConnor) for [Klipper](https://github.com/KevinOConnor/klipper)
+- [Eric Callahan (arksine)](https://github.com/Arksine) for [Moonraker](https://github.com/Arksine/moonraker)
+
+## License
+
+Bosun is licensed under the same license as Mainsail. See [LICENSE](LICENSE) for details.
