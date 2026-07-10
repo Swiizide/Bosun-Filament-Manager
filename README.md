@@ -4,14 +4,14 @@
 </p>
 
 <p align="center">
-  <a aria-label="License" href="https://github.com/Swiizide/mainsail-filament/blob/develop/LICENSE">
-    <img src="https://img.shields.io/github/license/Swiizide/mainsail-filament?style=flat-square">
+  <a aria-label="License" href="https://github.com/Swiizide/Bosun-Filament-Manager/blob/develop/LICENSE">
+    <img src="https://img.shields.io/github/license/Swiizide/Bosun-Filament-Manager?style=flat-square">
   </a>
-  <a aria-label="Last commit" href="https://github.com/Swiizide/mainsail-filament/commits/">
-    <img src="https://img.shields.io/github/last-commit/Swiizide/mainsail-filament?style=flat-square">
+  <a aria-label="Last commit" href="https://github.com/Swiizide/Bosun-Filament-Manager/commits/">
+    <img src="https://img.shields.io/github/last-commit/Swiizide/Bosun-Filament-Manager?style=flat-square">
   </a>
-  <a aria-label="Version" href="https://github.com/Swiizide/mainsail-filament/releases">
-    <img src="https://img.shields.io/github/v/release/Swiizide/mainsail-filament?style=flat-square">
+  <a aria-label="Version" href="https://github.com/Swiizide/Bosun-Filament-Manager/releases">
+    <img src="https://img.shields.io/github/v/release/Swiizide/Bosun-Filament-Manager?style=flat-square">
   </a>
 </p>
 
@@ -54,7 +54,7 @@ cp -r ~/mainsail ~/mainsail_backup
 
 ```bash
 cd /tmp
-wget https://github.com/Swiizide/mainsail-filament/releases/latest/download/mainsail.zip
+wget https://github.com/Swiizide/Bosun-Filament-Manager/releases/latest/download/mainsail.zip
 unzip mainsail.zip -d ~/mainsail/
 ```
 
@@ -66,7 +66,7 @@ Replace the existing `[update_manager mainsail]` entry with:
 [update_manager mainsail]
 type: web
 channel: stable
-repo: Swiizide/mainsail-filament
+repo: Swiizide/Bosun-Filament-Manager
 path: ~/mainsail
 ```
 
