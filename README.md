@@ -80,7 +80,7 @@ cd mainsail-filament
 npm install
 npm run serve    # development server
 npm run build    # production build
-```*
+```
 
 ## Updating
 
